@@ -20,4 +20,6 @@ response = client.chat.completions.create(
   max_tokens=300,
 )
 
+print("\n Answer is: \n")
 print(response.choices[0].message.content)
+print("\n")
